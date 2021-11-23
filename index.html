@@ -72,5 +72,36 @@
         </ul>
       </div>
     </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+      ScrollReveal({
+        reset: true,
+        delay: 200,
+        duration: 2000,
+        distance: "500px",
+      });
+
+      ScrollReveal().reveal(".image-section", {
+        delay: 500,
+        origin: "right",
+      });
+
+      ScrollReveal().reveal(".title-section .title, .price p", {
+        delay: 200,
+        origin: "top",
+      });
+
+      ScrollReveal().reveal(".title-section .price button", {
+        delay: 300,
+        origin: "left",
+      });
+
+      ScrollReveal().reveal(".footer-icons i", {
+        delay: 300,
+        origin: "bottom",
+        interval: 200,
+      });
+    </script>
   </body>
 </html>

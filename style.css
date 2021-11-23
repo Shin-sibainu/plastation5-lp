@@ -114,7 +114,7 @@ nav ul li a:hover {
   font-size: 1.5rem;
   border-radius: 5px;
   cursor: pointer;
-  transition: all 0.5s;
+  transition: padding 0.4s;
 }
 
 .price button:hover {
@@ -132,7 +132,7 @@ nav ul li a:hover {
 
 .image-section::after {
   content: "";
-  width: 200%;
+  width: 800px;
   height: 65%;
   background: linear-gradient(to right, rgb(233, 130, 219), rgb(206, 114, 39));
   position: absolute;
