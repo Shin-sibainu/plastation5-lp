@@ -18,6 +18,7 @@ body {
     rgba(28, 27, 59, 1) 0%,
     rgba(9, 7, 64, 1) 100%
   );
+  overflow: hidden;
 }
 
 header {
@@ -132,7 +133,7 @@ nav ul li a:hover {
 
 .image-section::after {
   content: "";
-  width: 800px;
+  width: 900px;
   height: 65%;
   background: linear-gradient(to right, rgb(233, 130, 219), rgb(206, 114, 39));
   position: absolute;
@@ -140,6 +141,17 @@ nav ul li a:hover {
   left: 60px;
   z-index: -1;
   border-radius: 20px;
+}
+
+.image-section .add-button {
+  position: absolute;
+  top: 40%;
+  right: -10%;
+  z-index: 2;
+  color: white;
+}
+
+.image-section .add-button .plus-btn {
 }
 
 /* footer section */
